@@ -1,0 +1,52 @@
+Q1. What are the Conditional Operators in Java?
+Ans: The conditional operators in Java include the Ternary Operator (?:), which is used to return a value based on a condition. This operator is a shorthand for the if-else statement, allowing you to assign values based on a condition.
+
+Q2. What are the types of operators based on the number of operands?
+Ans: Operators in Java can be classified based on the number of operands they work with:
+Unary Operators: Operate on a single operand.
+Binary Operators: Operate on two operands.
+Ternary Operators: Operate on three operands.
+
+Q3. What is the use of Switch Case in Java programming?
+Ans: The switch statement is used to execute one out of multiple code blocks based on the value of an expression. It is an alternative to using multiple if-else statements when there are multiple conditions to check.
+
+Q4. What are the priority levels of arithmetic operations in Java?
+Ans: The priority levels of arithmetic operations in Java, from highest to lowest, are as follows:
+Parentheses ()
+Unary operators like ++, --, +, -
+Multiplication *, Division /, and Modulus %
+Addition + and Subtraction -
+
+Q5. What are the Conditional Statements and the use of conditional statements in Java?
+Ans: Conditional statements in Java include if, if-else, else if, and switch. These statements are used to control the flow of the program based on conditions, allowing decisions to be made dynamically during execution.
+
+Q6. What is the syntax of if-else statement?
+Ans: The syntax of an if-else statement in Java is as follows:
+
+if (condition) {
+    // Block of code if condition is true
+} else {
+    // Block of code if condition is false
+}
+
+Q7. What are the 3 types of iterative statements in Java?
+Ans: The three types of iterative statements (loops) in Java are:
+for loop
+while loop
+do-while loop
+
+Q8. Write the difference between for loop and do-while loop:
+Ans:
+For loop: The condition is checked before the loop is executed, and if the condition is false, the loop does not run.
+Do-while loop: The condition is checked after the loop has executed at least once, ensuring that the loop runs at least once regardless of the condition.
+
+Q9. Write a program to print numbers from 1 to 10:
+Ans:
+The program would use a loop to iterate through the numbers from 1 to 10 and print each number.
+public class PrintNumbers {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(i);
+        }
+    }
+}

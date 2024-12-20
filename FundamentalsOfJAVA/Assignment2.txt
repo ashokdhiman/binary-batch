@@ -1,0 +1,53 @@
+Q1. What is Statically Typed and Dynamically Typed Programming Language?
+Ans:Statically Typed: The type of a variable is determined at compile time and cannot be changed. Examples: Java, C++.
+Dynamically Typed: The type of a variable is determined at runtime, allowing flexibility. Examples: Python, JavaScript.
+
+Q2. What is a Variable in Java?
+Ans: A variable in Java is a container that holds data that can change during the execution of a program. It is declared with a data type and a name.
+
+Q3. How to Assign a Value to a Variable?
+Ans: You can assign a value to a variable using the = operator.
+Example:
+  int number = 10; 
+
+Q4. What are Primitive Data Types in Java?
+Ans: Java provides eight primitive data types:
+    byte
+    short
+    int
+    long
+    float
+    double
+    char
+    boolean
+
+Q5. What are Identifiers in Java?
+Ans: Identifiers are names used to identify variables, methods, classes, or other elements in Java.
+Rules for Identifiers:
+    Must begin with a letter, $, or _.
+    Cannot use reserved keywords.
+
+Q6. List the Operators in Java:
+Ans: Java supports the following operators:
+    Arithmetic Operators: +, -, *, /, %
+    Relational Operators: ==, !=, >, <, >=, <=
+    Logical Operators: &&, ||, !
+    Assignment Operators: =, +=, -=, etc.
+    Increment and Decrement Operators: ++, --
+    Bitwise Operators: &, |, ^, ~
+    Ternary Operator: ?:
+
+Q7. Explain about Increment and Decrement Operators and give examples:
+Ans:
+Increment Operator (++): Increases a variable's value by 1.
+    x++ (Post-increment): Increments after the current statement is executed.
+    ++x (Pre-increment): Increments before the current statement is executed.
+Decrement Operator (--): Decreases a variable's value by 1.
+    x-- (Post-decrement): Decrements after the current statement is executed.
+    --x (Pre-decrement): Decrements before the current statement is executed.
+Examples:
+    int x = 5;
+    System.out.println(x++); // Prints 5, then x becomes 6
+    System.out.println(++x); // Increments x to 7, then prints 7
+    System.out.println(x--); // Prints 7, then x becomes 6
+    System.out.println(--x); // Decrements x to 5, then prints 5

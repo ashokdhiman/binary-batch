@@ -1,0 +1,64 @@
+
+Q9. How to check if Git is available on your system?
+Ans: To check if Git is installed and available, open a terminal or command prompt and type the following command:
+```bash
+git --version
+```
+If Git is installed, this command will display the installed version.
+
+Q10. How to initialize a new Git repository?
+Ans: To initialize a new Git repository, navigate to your project directory and run:
+```bash
+git init
+```
+This will create an empty repository in the directory.
+
+Q11. How to tell Git about your name and email?
+Ans: Use the following commands to configure your name and email globally:
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+```
+
+Q12. How to add a file to the staging area?
+Ans: To add a file to the staging area, use the `git add` command:
+```bash
+git add <file-name>
+```
+For adding all changes in the directory:
+```bash
+git add .
+```
+
+Q13. How to remove a file from the staging area?
+Ans: To remove a file from the staging area without deleting it from the working directory, use:
+```bash
+git reset <file-name>
+```
+
+Q14. How to make a commit?
+Ans: After staging your changes, make a commit using:
+```bash
+git commit -m "Your commit message"
+```
+
+Q15. How to send your changes to a remote repository?
+Ans: Use the following command to push your changes to a remote repository:
+```bash
+git push <remote-name> <branch-name>
+```
+For example:
+```bash
+git push origin main
+```
+
+Q16. What is the difference between clone and pull?
+Ans: 
+- **Clone**: Used to copy an entire remote repository to your local machine for the first time.
+```bash
+git clone <repository-url>
+```
+- **Pull**: Used to fetch and merge changes from the remote repository to your local branch.
+```bash
+git pull
+```

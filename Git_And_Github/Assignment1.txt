@@ -1,0 +1,41 @@
+Q1. What is Git?
+Ans: Git is a distributed version control system designed to handle everything from small to very large projects with speed and efficiency. It allows multiple developers to work on the same project simultaneously.
+
+Q2. What do you understand by the term ‘Version Control System’?
+Ans: A Version Control System (VCS) is a software tool that helps manage changes to source code or files over time. It tracks revisions, facilitates collaboration among developers, and allows reverting to previous versions if needed.
+
+Q3. What is GitHub?
+Ans: GitHub is a cloud-based hosting service for managing Git repositories. It provides a web-based graphical interface, collaboration tools, and features like issue tracking, code review, and CI/CD integration.
+
+Q4. Mention some popular Git hosting services:
+Ans: 
+1. GitHub
+2. GitLab
+3. Bitbucket
+4. SourceForge
+5. Azure DevOps
+
+Q5. Different types of Version Control Systems:
+Ans: 
+1. Local Version Control System: Maintains version control on a local machine.
+2. Centralized Version Control System (CVCS): Stores all versions in a central server (e.g., Subversion, CVS).
+3. Distributed Version Control System (DVCS): Each developer has a local copy of the entire repository (e.g., Git, Mercurial).
+
+Q6. What benefits come with using Git?
+Ans: 
+1. Distributed development: Every developer has a complete copy of the repository.
+2. High performance for branching, merging, and committing.
+3. Powerful branching and merging model.
+4. Enables collaboration across teams.
+5. Tracks changes with detailed commit history.
+6. Works offline for many operations.
+
+Q7. What is a Git repository?
+Ans: A Git repository is a virtual storage of a project. It allows you to track and manage changes to your project files and provides a history of the modifications.
+
+Q8. How can you initialize a repository in Git?
+Ans: To initialize a repository in Git, use the following command in the terminal:
+```bash
+git init
+```
+This command creates an empty Git repository in the current directory.
